@@ -1,28 +1,24 @@
 package lamba.mobiletest;
 
-import com.amazonaws.services.lambda.runtime.Context;
-import com.amazonaws.services.lambda.runtime.RequestHandler;
 import com.google.i18n.phonenumbers.NumberParseException;
 import com.google.i18n.phonenumbers.PhoneNumberUtil;
 import com.google.i18n.phonenumbers.Phonenumber;
 import org.apache.commons.validator.routines.EmailValidator;
 
-/*
- * Runs with error:
- * Error loading class lamba.mobiletest.App: com/google/i18n/phonenumbers/NumberParseException: java.lang.NoClassDefFoundError
- * java.lang.NoClassDefFoundError: com/google/i18n/phonenumbers/NumberParseException
+/**
+ * java -cp build/libs/lamba-mobiletest.jar lamba.mobiletest.NormalApp
+ *
+ * This runs with no issues
  */
-public class App implements RequestHandler<Object, Object> {
+public class NormalApp {
 
-    @Override
-    public Object handleRequest(Object input, Context context) {
+    public static void main(String[] args) {
+
         System.out.println("Hello World!");
 
-        // test if no issue with import any external lib
         boolean validEmail = EmailValidator.getInstance().isValid("peter.tran@sainsburys.co.uk");
         System.out.println(validEmail);
 
-        // seems to cause issue?
         PhoneNumberUtil phoneNumberUtil = PhoneNumberUtil.getInstance();
         try {
             Phonenumber.PhoneNumber no = phoneNumberUtil.parse("07384432179", "GB");
@@ -30,6 +26,6 @@ public class App implements RequestHandler<Object, Object> {
         } catch (NumberParseException e) {
             System.out.print(e);
         }
-        return null;
+
     }
 }
