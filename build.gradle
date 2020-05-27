@@ -1,0 +1,23 @@
+plugins {
+    id 'java'
+}
+
+sourceCompatibility = '1.8'
+
+repositories {
+    mavenCentral()
+}
+
+jar {
+    from {
+        configurations.compile.collect { it.isDirectory() ? it : zipTree(it) }
+    }
+}
+
+dependencies {
+    compile group: 'com.amazonaws', name: 'aws-lambda-java-core', version: '1.2.0'
+    compile group: 'com.amazonaws', name: 'aws-lambda-java-events', version: '2.0.2'
+
+    // Use JUnit test framework
+    testCompile'junit:junit:4.12'
+}
