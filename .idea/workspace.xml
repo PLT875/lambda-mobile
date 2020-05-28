@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d9404612-82b3-4d7c-be38-215ba3b92fae" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/lamba/mobiletest/i18n/test/Random.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/lamba/mobiletest/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lamba/mobiletest/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/lamba/mobiletest/NormalApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lamba/mobiletest/NormalApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lamba/mobiletest/i18n/test/Random.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/google/i18n/phonenumbers/Random.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

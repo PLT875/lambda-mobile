@@ -1,4 +1,4 @@
-package lamba.mobiletest.i18n.test;
+package com.google.i18n.phonenumbers;
 
 public class Random {
 
