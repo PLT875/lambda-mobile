@@ -19,13 +19,13 @@ public class App implements RequestHandler<Object, Object> {
         System.out.println("Hello World!");
 
         // test if no issue with import any external lib
-        boolean validEmail = EmailValidator.getInstance().isValid("peter.tran@sainsburys.co.uk");
+        boolean validEmail = EmailValidator.getInstance().isValid("someone@email.com");
         System.out.println(validEmail);
 
         // seems to cause issue?
         PhoneNumberUtil phoneNumberUtil = PhoneNumberUtil.getInstance();
         try {
-            Phonenumber.PhoneNumber no = phoneNumberUtil.parse("07384432179", "GB");
+            Phonenumber.PhoneNumber no = phoneNumberUtil.parse("07400123456", "GB");
             System.out.println(no.getNationalNumber());
         } catch (NumberParseException e) {
             System.out.print(e);

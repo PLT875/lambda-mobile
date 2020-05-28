@@ -16,12 +16,12 @@ public class NormalApp {
 
         System.out.println("Hello World!");
 
-        boolean validEmail = EmailValidator.getInstance().isValid("peter.tran@sainsburys.co.uk");
+        boolean validEmail = EmailValidator.getInstance().isValid("someone@email.com");
         System.out.println(validEmail);
 
         PhoneNumberUtil phoneNumberUtil = PhoneNumberUtil.getInstance();
         try {
-            Phonenumber.PhoneNumber no = phoneNumberUtil.parse("07384432179", "GB");
+            Phonenumber.PhoneNumber no = phoneNumberUtil.parse("07400123456", "GB");
             System.out.println(no.getNationalNumber());
         } catch (NumberParseException e) {
             System.out.print(e);
