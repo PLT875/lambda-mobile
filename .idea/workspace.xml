@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d9404612-82b3-4d7c-be38-215ba3b92fae" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/lamba/mobiletest/i18n/test/Random.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/lamba/mobiletest/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lamba/mobiletest/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/lamba/mobiletest/NormalApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lamba/mobiletest/NormalApp.java" afterDir="false" />
@@ -89,5 +91,21 @@
       <screen x="37" y="23" width="1243" height="777" />
     </state>
     <state x="471" y="124" key="#com.intellij.ide.util.MemberChooser/37.23.1243.777@37.23.1243.777" timestamp="1590598636380" />
+    <state width="1201" height="197" key="GridCell.Tab.0.bottom" timestamp="1590614226372">
+      <screen x="37" y="23" width="1243" height="777" />
+    </state>
+    <state width="1201" height="197" key="GridCell.Tab.0.bottom/37.23.1243.777@37.23.1243.777" timestamp="1590614226372" />
+    <state width="1201" height="197" key="GridCell.Tab.0.center" timestamp="1590614226371">
+      <screen x="37" y="23" width="1243" height="777" />
+    </state>
+    <state width="1201" height="197" key="GridCell.Tab.0.center/37.23.1243.777@37.23.1243.777" timestamp="1590614226371" />
+    <state width="1201" height="197" key="GridCell.Tab.0.left" timestamp="1590614226370">
+      <screen x="37" y="23" width="1243" height="777" />
+    </state>
+    <state width="1201" height="197" key="GridCell.Tab.0.left/37.23.1243.777@37.23.1243.777" timestamp="1590614226370" />
+    <state width="1201" height="197" key="GridCell.Tab.0.right" timestamp="1590614226371">
+      <screen x="37" y="23" width="1243" height="777" />
+    </state>
+    <state width="1201" height="197" key="GridCell.Tab.0.right/37.23.1243.777@37.23.1243.777" timestamp="1590614226371" />
   </component>
 </project>

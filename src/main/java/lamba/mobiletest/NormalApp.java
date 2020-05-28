@@ -3,6 +3,7 @@ package lamba.mobiletest;
 import com.google.i18n.phonenumbers.NumberParseException;
 import com.google.i18n.phonenumbers.PhoneNumberUtil;
 import com.google.i18n.phonenumbers.Phonenumber;
+import lamba.mobiletest.i18n.test.Random;
 import org.apache.commons.validator.routines.EmailValidator;
 
 /**
@@ -20,6 +21,8 @@ public class NormalApp {
         System.out.println(validEmail);
 
         PhoneNumberUtil phoneNumberUtil = PhoneNumberUtil.getInstance();
+        Random random = new Random("test with similar package name");
+        System.out.println(random.getRandom());
         try {
             Phonenumber.PhoneNumber no = phoneNumberUtil.parse("07384432179", "GB");
             System.out.println(no.getNationalNumber());
